@@ -228,13 +228,32 @@ aside div span {
 }
 */
 
-.aside {
+.aside a {
     display: flex;
     flex-direction: row;
 }
 
+.aside a span {
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+}
+
+.aside a p {
+    color: grey;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
 .selected {
     border-top: solid gray;
+}
+
+.selected a p {
+    color: black;
 }
 
 /* --- */
