@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+}
+
+/* --- */
+/* LATERAL */
+
+.header {
+    width: 200px;
+    /*
+    min-height: 1000px;
+    */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /*
+    align-content: flex-start;
+    justify-content: space-around;
+    */
+}
+
+.logo {
+    width: 103px;
+    height: 29px;
+    background-image: url('images/Instagram-Logo.png/');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+}
+
+.menu ul {
+    /*
+    list-style-type: "🔔 ";
+    */
+    list-style-type: none;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li span {
+    margin-right: 10px;
+}
+
+/* --- */
+/* GENERAL */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.profile {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 25px 25px 0px 25px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    background-image: url("images/Profile-Pic-S.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 25px;
+    align-items: center;
+}
+
+.profile-info {
+    background-color: white;
+    flex-direction: column;
+    width: 500px;
+    margin: 25px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.flex h1 {
+    padding: 10px;
+}
+
+.flex button {
+    height: 25px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.flex-numbers {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.flex-numbers p {
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+.profile-text {
+    margin: 10px;
+}
+
+/*
+
+.flex .numbers ul {
+    background-color: chartreuse;
+}
+
+.flex .numbers li {
+    padding: 15px;
+    background-color: chartreuse;
+}
+
+*/
+
+/* --- */
+/* STORIES */
+
+.stories {
+    margin: 0 25px 40px 25px;
+    justify-content: center;
+    background-color: white;
+}
+
+.stories a {
+    margin-left: 15px;
+}
+
+.myStory1 {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://source.unsplash.com/random/?toys");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.myStory2 {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://source.unsplash.com/random/?mom");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.myStory3 {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://source.unsplash.com/random/?food");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.myStory4 {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://source.unsplash.com/random/?friends");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* --- */
+
+main nav {
+    border-bottom: solid gray 1px;
+}
+
+/* --- */
+
+aside div {
+    margin: 0 10px 10px 10px;
+    padding: 15px;
+}
+
+aside div span {
+    margin-right: 15px;
+}
+
+.selected {
+    border-top: solid gray;
+}
+
+/* --- */
+
+.photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: stretch;
+    min-width: 1000px;
+}
+
+.photo {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://source.unsplash.com/random/?kitty");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+
+/* --- */
+/* FOOTER */
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+footer li {
+    list-style-type: none;
+    margin: 10px;
+    color: grey;
+}
+
+.footer-2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.footer-2 select {
+    padding: 5px;
+    color: grey;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.footer-2 p {
+    margin-top: 7px;
+    text-align: center;
+    color: grey;
+}
