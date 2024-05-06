@@ -48,8 +48,22 @@
     padding: 10px;
 }
 
+/*
 .menu ul li span {
     margin-right: 10px;
+}
+*/
+
+.menu ul li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu ul li a p {
+    font-size: 1.1rem;
+    margin-top: 2px;
+    padding: 10px;
 }
 
 /* --- */
@@ -152,9 +166,9 @@
 }
 
 .myStory1 {
-    height: 50px;
-    width: 50px;
-    background-image: url("https://source.unsplash.com/random/?toys");
+    height: 67px;
+    width: 67px;
+    background-image: url("images/stories/Stories1.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
     background-size: cover;
@@ -163,9 +177,9 @@
 }
 
 .myStory2 {
-    height: 50px;
-    width: 50px;
-    background-image: url("https://source.unsplash.com/random/?mom");
+    height: 67px;
+    width: 67px;
+    background-image: url("images/stories/Stories2.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
     background-size: cover;
@@ -174,9 +188,9 @@
 }
 
 .myStory3 {
-    height: 50px;
-    width: 50px;
-    background-image: url("https://source.unsplash.com/random/?food");
+    height: 67px;
+    width: 67px;
+    background-image: url("images/stories/Stories3.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
     background-size: cover;
@@ -185,9 +199,9 @@
 }
 
 .myStory4 {
-    height: 50px;
-    width: 50px;
-    background-image: url("https://source.unsplash.com/random/?friends");
+    height: 67px;
+    width: 67px;
+    background-image: url("images/stories/Stories4.png");
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
     background-size: cover;
@@ -208,8 +222,15 @@ aside div {
     padding: 15px;
 }
 
+/*
 aside div span {
     margin-right: 15px;
+}
+*/
+
+.aside {
+    display: flex;
+    flex-direction: row;
 }
 
 .selected {
@@ -228,13 +249,27 @@ aside div span {
 }
 
 .photo {
-    height: 300px;
-    width: 300px;
+    height: 293px;
+    width: 293px;
+    /*
     background-image: url("https://source.unsplash.com/random/?kitty");
+    */
     background-repeat: no-repeat, no-repeat;
     background-position: right, left;
     background-size: cover;
     margin-bottom: 40px;
+}
+
+.photo01 {
+    background-image: url("images/galeria/Gal01.jpg");
+}
+
+.photo02 {
+    background-image: url("images/galeria/Gal02.jpg");
+}
+
+.photo03 {
+    background-image: url("images/galeria/Gal03.jpg");
 }
 
 /* --- */
